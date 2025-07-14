@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>To-Do List App</title>
 
-  <!-- Tailwind CSS CDN -->
+
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Google Fonts: Lato -->
+ 
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
-  <!-- Font Awesome for icons -->
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
   <style>
@@ -20,17 +20,17 @@
     }
   </style>
 </head>
-<body class="bg-blue-50 min-h-screen flex flex-col">
-  <!-- Header -->
-  <header class="bg-blue-600 text-white p-4 text-center text-2xl font-semibold">
+<body class="bg-blue-50 min-h-screen flex flex-col ">
+  
+  <header class="bg-blue-600  text-white p-4 text-center text-2xl font-semibold  ">
     To-Do List App with Due Dates
   </header>
 
   
 
-  <!-- Main Section -->
+ 
   <main class="flex-1 p-4 max-w-3xl mx-auto">
-    <!-- Task Form -->
+   
     <section class="mb-6">
       <form id="task-form" class="flex flex-col sm:flex-row gap-2">
         <input type="text" id="task-input" placeholder="Enter task" required
@@ -41,7 +41,7 @@
       </form>
     </section>
 
-    <!-- Filter Buttons -->
+    
     <section class="mb-4 space-x-2">
       <button class="filter-btn bg-white border px-3 py-1 rounded" data-filter="all">All</button>
       <button class="filter-btn bg-white border px-3 py-1 rounded" data-filter="upcoming">Upcoming</button>
@@ -49,18 +49,18 @@
       <button class="filter-btn bg-white border px-3 py-1 rounded" data-filter="completed">Completed</button>
     </section>
 
-    <!-- Task List -->
+ 
     <section>
       <ul id="task-list" class="space-y-4"></ul>
     </section>
   </main>
 
-  <!-- Footer -->
+  
   <footer class="bg-blue-100 text-center p-2 text-sm text-blue-800">
-    &copy; 2025 My To-Do App | Built with ❤️
+     My To-Do App 
   </footer>
 
-  <!-- JavaScript -->
+  
   <script src="app.js"></script>
 </body>
 </html>
